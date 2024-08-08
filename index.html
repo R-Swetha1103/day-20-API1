@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISRO API</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <style>
+    body{
+        height: 100%;
+        background-image:url("satellite.jpeg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .satelite{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 20px;
+        padding: 10px;
+        row-gap: 10px;
+        justify-content: space-around;
+    }
+    .card{
+        background-image:url("satellite.jpeg");
+        color: white;
+    }
+    </style>
+
+
+</head>
+<body>
+    <h1 class="text-center" style="color: white;">satellite Information</h1>
+    <div class="satelite"></div>
+    <script src="script.js"></script>
+</body>
+</html>
